@@ -1,0 +1,77 @@
+body{
+    background-color: #44474E;
+    margin-top:1px;
+}
+#application header{
+    background-color:#33373E;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+button{
+    margin-top:1mm;
+    margin-bottom:1mm;
+    background-color:#33373E;
+    color:white;
+    border:solid 1px black;
+}
+button:hover{
+    background-color: #55575e;
+}
+#application main{
+    display:grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+ul > li{
+    color:whitesmoke;
+    margin-top:auto;
+    margin-bottom:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.stat{
+    text-align:right;
+    display:flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type:none;
+    padding-left: 0;
+    grid-column-start:3;
+}
+header h1{
+    padding: 1mm;
+    margin:0;
+}
+.upgrade{
+    margin-bottom: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+th{
+    background-color: #2a3539;
+}
+header td{
+    background-color: #384046;
+}
+table{
+    border-collapse:collapse;
+}
+body > header{
+    color:white;
+    display:flex;
+    justify-content: space-around;
+}
+
+#tableaucommandes{
+    margin:auto;
+    width:90%;
+    text-align:center;
+    color:whitesmoke;
+}
+
+#tableaucommandes tr:nth-child(even){
+    background-color: #55575e;
+}

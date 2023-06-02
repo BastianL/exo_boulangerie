@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="boulangerie.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="boulangerie.css" />
+    <title>Boulangerie</title>
+</head>
+<body>
+    <header>
+        <h1>Le Boulanger</h1>
+        <table>
+            <tr>
+                <th>Or gagné</th>
+                <th>Or dépensé</th>
+                <th>Farine produite</th>
+                <th>Baguettes produites</th>
+            </tr>
+            <tr>
+                <td id = "Or_Gagné"></td>
+                <td id = "Or_Dépensé"></td>
+                <td id = "Farine_Produite"></td>
+                <td id = "Baguettes_Produites"></td>
+            </tr>
+        </table>
+    </header>
+    <div id="application">
+    <header>
+        <h1>Boulangerie</h1>
+        <button type="button" id="Boulangerie">Ouvrir la boulangerie</button>
+    </header>
+    <main>
+        <img src="boulangerie.png" alt="La boulangerie">
+        <ul>
+            <li>Niveau
+                <span class ="stat">
+                    <span id ="Niveau"></span>⚡
+                </span>
+                <span class="upgrade">
+                    <button type="button" id="niveauplus">+</button>
+                    <span><span id = "Prix_Niveau"></span>💰</span>
+                </span>
+            </li>
+            <li>Moulins
+                <span class ="stat">
+                    <span id ="Nombre_Moulins"></span>
+                </span>
+                <span class="upgrade">
+                    <button type="button" id="moulinplus">+</button>
+                    <span><span id = "Prix_Moulin"></span>💰</span>
+                </span>
+            </li>
+            <li>Or
+                <span class ="stat">
+                    <span id ="Or"></span>💰
+                </span>
+            </li>
+            <li>Farine
+                <span class ="stat">
+                    <span id ="Nombre_Farine"></span>
+                </span>
+            </li>
+            <li>Baguettes
+                <span class ="stat">
+                    <span id ="Nombre_Baguettes"></span>🥖
+                </span>
+            </li>
+        </ul>
+    </main>
+    <div id="Commandes">
+        <header>
+            <h1>Commandes</h1>
+        </header>
+        <table id ="tableaucommandes">
+            <thead>
+                <th>📲</th>
+                <th>🥖</th>
+                <th>💰/🥖</th>
+                <th>💰💰💰</th>
+                <th>⌚</th>
+                <th>Status</th>
+            </thead>
+        </table>
+    </div>
+</div>
+</body>
+</html>
